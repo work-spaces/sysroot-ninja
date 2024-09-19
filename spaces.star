@@ -27,7 +27,7 @@ linux = {
 }
 
 checkout.add_platform_archive(
-    rule = {"name": "cmake"},
+    rule = {"name": "ninja"},
     platforms = {
         "macos_x86_64": macos_universal,
         "macos_aarch64": macos_universal,
